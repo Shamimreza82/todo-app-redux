@@ -7,7 +7,7 @@ const initialState = {
         description: "create home page and routing", 
         dueDate: "2025-11", 
         isCompleted: false, 
-        priority: "High"
+        priority: "High" 
     }
 }
 
@@ -17,3 +17,5 @@ const taskSlice = createSlice ({
     initialState, 
     reducers: {}
 })
+
+export default taskSlice.reducer

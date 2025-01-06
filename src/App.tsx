@@ -1,9 +1,11 @@
-import { Button } from "./components/ui/button";
+import { Outlet } from "react-router";
+import Navber from "./pages/Navber";
 
 function App() {
   return (
     <div>
-        <Button>Click me</Button>
+      <Navber></Navber>
+        <Outlet></Outlet>
     </div>
   );
 }
